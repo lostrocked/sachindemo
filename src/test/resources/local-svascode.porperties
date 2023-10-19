@@ -1,0 +1,19 @@
+#############################################################################
+# DevTest Annotation configuration file										#
+#  overwrite svascode.properties file 										#
+# in the classpath															#
+#																			#
+#############################################################################
+#devtest.home=${java.io.tmpdir}devTest
+devtest.home=C:\\Users\\Administrator\\DevTest\\Projects\\New_DevTest_00
+devtest.embeddedVse=false
+devtest.vsename=VSE
+devtest.registry=10.252.213.144
+devtest.registry.port=1505
+devtest.registryUrl=tcp://${devtest.registry}:2010/Registry
+devtest.login=admin
+devtest.password=admin
+devtest.protocol=http
+devtest.keystore=C:\\Code\\SV-as-Code-UnitTest-master\\DevTestwebserver.ks
+devtest.keystorePassword=changeit
+devtest.undeploy.ifexists=true
